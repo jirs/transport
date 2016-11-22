@@ -1,0 +1,26 @@
+.map_all {
+    padding:50px;
+    border: 1px solid #999;
+    width: 500px;
+    float: left;
+}
+#map {
+    height: 300px;
+    position: relative;
+}
+.map_item {
+    position: absolute;
+}
+.map_item_point {
+    width: 5px;
+    height: 5px;
+    background: #fff400;
+    border: 2px solid #b30318;
+    border-radius: 5px;
+}
+
+.positions {
+    padding-left: 30px;
+    float: left;
+}
+

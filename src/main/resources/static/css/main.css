@@ -1,0 +1,10 @@
+h1 {
+    font-size: 24px;
+}
+.a_mmenu_item {
+    color: #999;
+    font-size: 18px;
+}
+.a_mmenu_item:hover {
+    color: #666;
+}

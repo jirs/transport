@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Save Page</title>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/position_area.js"></script>
+    <link rel="stylesheet" href="/css/position_area.css" />
+</head>
+<body>
+    <h1>Редактирование кэшируемой области</h1>
+    <div id="message"></div>
+    <form id="f_save" method="post">
+        <p><b>X:</b><br />
+            <label for="x_from">From:</label>
+            <input type="text" id="x_from" th:value="${positionArea.xFrom}" />
+            <label for="x_to">To:</label>
+            <input type="text" id="x_to" th:value="${positionArea.xTo}" />
+        </p>
+        <p><b>Y:</b><br />
+            <label for="y_from">From:</label>
+            <input type="text" id="y_from" th:value="${positionArea.yFrom}" />
+            <label for="y_to">To:</label>
+            <input type="text" id="y_to" th:value="${positionArea.yTo}" />
+        </p>
+        <input type="submit" id="b_save" value="Save" />
+    </form>
+</body>
+</html>

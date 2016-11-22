@@ -1,0 +1,7 @@
+#b_save {
+    padding: 10px 30px;
+}
+.preloader {
+    background: url("/img/preloader_16.gif") no-repeat center center;
+    color: #CCC;
+}

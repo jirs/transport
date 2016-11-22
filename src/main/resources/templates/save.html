@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Save Page</title>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/save.js"></script>
+</head>
+<body>
+    <h1>Изменение координат транспортных средств</h1>
+    <div id="message"></div>
+    <form id="f_save" method="post">
+        <label for="id">id: </label>
+        <input type="text" id="id" value="5" />
+        <label for="x">x: </label>
+        <input type="text" id="x" value="10" />
+        <label for="y">y: </label>
+        <input type="text" id="y" value="20" />
+        <input type="submit" class="b_save" value="Save" />
+    </form>
+</body>
+</html>
